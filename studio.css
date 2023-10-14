@@ -22,7 +22,7 @@ body{
 
 #menu{
     background-color: rgb(44, 14, 41);
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     z-index: 1000;
 }
@@ -117,7 +117,7 @@ body{
     }
 
     #menu{
-        padding-bottom: 50vh;
+        padding-bottom: 1vh;
     }
 
     .content{
@@ -125,6 +125,12 @@ body{
         color: #fff;
         padding: 30px;
      }
+
+     .leftmenu{
+        padding: 16px 0px;
+        margin: 0px 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 4.3rem;
 
      #menu .rightmenu{
          display: none;
