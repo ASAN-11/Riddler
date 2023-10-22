@@ -10,10 +10,11 @@
 
 body{
     overflow-x: hidden;
+    background-color: black;
 }
 
 .section{
-    background-image: url('bgstudio.jpg');
+    background-image: url(bgstudio.jpg);
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -77,42 +78,152 @@ body{
     margin: auto;
  }
 
- .content{
-    margin-top: 17vh;
-    color: #fff;
+ .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    flex-direction: column;
  }
 
- .content H1{
-     font-size: 60px;
+ .box{
+    position: relative;
+    width: 1050px;
+    height: 500px;
+    margin: 60px 0;
+    background: #1a1e28aa;
+    transform-style: preserve-3d;
  }
 
- .content p{
-    font-size: 20px;
-}
+ .section1{
+    height: 100px;
+    background-image: url(bgimg4.jpeg);
+    background-size: cover;
+    padding-top: 20px;
+ }
 
-.mainbtn{
+ .section1 a{
+    color: #263365;
+    font-size: 50px;
     text-decoration: none;
-    padding: 8px 30px;
-    border-radius: 40px;
-    background: #ffffff;
-    font-size: 22px;
-    color: rgb(248, 0, 12);
+ }
+
+ .section2{
+    height: 100px;
+    background-image: url(bgimg1.jpg);
+    background-size: cover;
+    padding-top: 20px;
+ }
+
+ .section2 a{
+    color: #645545;
+    font-size: 50px;
+    text-decoration: none;
+ }
+
+ .section3{
+    height: 100px;
+    background-image: url(bgimg3.jpg);
+    background-size: cover;
+    padding-top: 20px;
+ }
+
+ .section3 a{
+    color: #5d2f04;
+    font-size: 50px;
+    text-decoration: none;
+ }
+
+ .section4{
+    height: 100px;
+    background-image: url(bgimg2.jpg);
+    background-size: cover;
+    padding-top: 20px;
+ }
+
+ .section4 a{
+    color: #0d1138;
+    font-size: 50px;
+    text-decoration: none;
+ }
+
+
+ .heading{
     display: inline-block;
-}
+ }
 
-.issuesbtn{
-    text-decoration: none;
-    padding: 8px 30px;
-    border-radius: 40px;
-    background: #ffffff;
-    font-size: 22px;
-    color: rgb(248, 0, 12);
-    display: none;
-}
+
+ .box h1{
+    color: #ffffff;
+ }
+
+ .atelier{
+    justify-content: center;
+    margin: 20px 50px;
+    background-color: rgb(59, 1, 79);
+ }
+
+ #block1{
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+ }
+ #block2{
+    display: inline-block;
+    padding-top: 40px;
+ }
+
+ .atelier h1{
+    margin-bottom: 20px;
+    color: #ad94b4;
+    display: inline-block;
+ }
+
+ .atelier form{
+    display: inline-block;
+ }
+
+ .atelier input{
+    padding-left: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 800px;
+    border-radius: 20px;
+ }
+
+ .atelier .submit{
+    padding: 10px;
+    background-color: #ad94b4;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+ }
+
+ .atelier .contri{
+    height: 100px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    width: 800px;
+    border-radius: 20px;
+    resize: none;
+ }
+
+ .atelier .randomimg{
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    height: 400px;
+    width: 450px;
+    background-image: url(download.png);
+    background-size: cover;
+ }
 
 @media (max-width: 450px){
     .section{
-        width: 200%;
+        width: 100%;
         height: 300vh;
     }
 
@@ -130,11 +241,263 @@ body{
         padding: 16px 0px;
         margin: 0px 30px;
         font-family: 'Poppins', sans-serif;
-        font-size: 4.3rem;
+        font-size: 2.3rem;
      }
 
      #menu .rightmenu{
          display: none;
+     }
+
+     .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        flex-direction: column;
+     }
+    
+     .box{
+        position: relative;
+        width: 400px;
+        margin: 60px 0;
+        background: #1a1e28aa;
+        transform-style: preserve-3d;
+     }
+}
+
+@media (max-width: 420px){
+   .section{
+      width: 150%;
+      height: auto;
+   }
+
+   .atelier input{
+      padding-left: 15px;
+      margin-bottom: 15px;
+      height: 50px;
+      width: 800px;
+      border-radius: 20px;
+   }
+  
+   .atelier .submit{
+      padding: 10px;
+      background-color: #ad94b4;
+      color: black;
+      width: 100px;
+      border-radius: 20px;
+      font-size: 15px;
+   }
+  
+   .atelier .contri{
+      height: 100px;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      width: 800px;
+      border-radius: 20px;
+      resize: none;
+   }
+ }
+
+ @media (max-width: 300px){
+   .section{
+      width: 180%;
+      height: auto;
+   }
+
+   .atelier input{
+      padding-left: 15px;
+      margin-bottom: 15px;
+      height: 30px;
+      width: 100px;
+      border-radius: 20px;
+   }
+  
+   .atelier .submit{
+      padding: 10px;
+      background-color: #ad94b4;
+      color: black;
+      width: 100px;
+      border-radius: 20px;
+      font-size: 15px;
+   }
+  
+   .atelier .contri{
+      height: 100px;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      width: 100px;
+      border-radius: 20px;
+      resize: none;
+   }
+
+ }
+
+
+
+@media (max-width: 1199px){
+    .box{
+        position: relative;
+        width: 800px;
+        margin: 60px 0;
+        background: #1a1e28aa;
+        transform-style: preserve-3d;
+     }
+}
+
+@media (max-width: 1000px){
+    .box{
+        position: relative;
+        width: 800px;
+        margin: 60px 0;
+        background: #1a1e28aa;
+        transform-style: preserve-3d;
+     }
+
+     .atelier input{
+        padding-left: 15px;
+        margin-bottom: 15px;
+        height: 50px;
+        width: 600px;
+        border-radius: 20px;
+     }
+    
+     .atelier .submit{
+        padding: 10px;
+        background-color: #ad94b4;
+        color: black;
+        width: 100px;
+        border-radius: 20px;
+        font-size: 15px;
+     }
+    
+     .atelier .contri{
+        height: 100px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        width: 600px;
+        border-radius: 20px;
+        resize: none;
+     }
+
+
+}
+
+
+@media (max-width: 860px){
+    .box{
+        position: relative;
+        width: 600px;
+        margin: 60px 0;
+        background: #1a1e28aa;
+        transform-style: preserve-3d;
+     }
+}
+
+
+@media (max-width: 780px){
+.atelier input{
+    padding-left: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+ }
+
+ .atelier .submit{
+    padding: 10px;
+    background-color: #ad94b4;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+ }
+
+ .atelier .contri{
+    height: 100px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    width: 400px;
+    border-radius: 20px;
+    resize: none;
+ }
+
+}
+
+
+@media (max-width:660px){
+    .box{
+        position: relative;
+        width: 450px;
+        margin: 60px 0;
+        background: #1a1e28aa;
+        transform-style: preserve-3d;
+     }
+}
+
+@media (max-width: 600px){
+    .atelier input{
+        padding-left: 15px;
+        margin-bottom: 15px;
+        height: 30px;
+        width: 300px;
+        border-radius: 20px;
+     }
+    
+     .atelier .submit{
+        padding: 10px;
+        background-color: #ad94b4;
+        color: black;
+        width: 100px;
+        border-radius: 20px;
+        font-size: 15px;
+     }
+    
+     .atelier .contri{
+        height: 60px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        width: 300px;
+        border-radius: 20px;
+        resize: none;
+     }
+    
+    }
+
+
+@media (max-width:490px){
+    .box{
+        position: relative;
+        width: 400px;
+        margin: 60px 0;
+        background: #1a1e28aa;
+        transform-style: preserve-3d;
+     }
+
+     .atelier input{
+        padding-left: 15px;
+        margin-bottom: 15px;
+        height: 30px;
+        width: 250px;
+        border-radius: 20px;
+     }
+    
+     .atelier .submit{
+        padding: 10px;
+        background-color: #ad94b4;
+        color: black;
+        width: 100px;
+        border-radius: 20px;
+        font-size: 15px;
+     }
+    
+     .atelier .contri{
+        height: 60px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        width: 250px;
+        border-radius: 20px;
+        resize: none;
      }
 }
 
@@ -160,6 +523,12 @@ body{
         display: inline-block;
         margin-left: 20px;
     }
+
+    #block2{
+        display: inline-block;
+        padding-top: 40px;
+        display: none;
+     }
 }
 
 @media (min-width: 1601px){

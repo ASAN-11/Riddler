@@ -18,7 +18,7 @@
                  <a href="index.html">
                      <li id="home">Home</li> 
                  </a> 
-                 <a href="https://asan-11.github.io/Riddler/issues.html">
+                 <a href="#">
                     <li id="issues">Issues</li>
                 </a>
                  <a href="https://github.com/ASAN-11/Riddler">
@@ -27,10 +27,46 @@
                 </ul>
             </div>
           </div>
-    <div class="menu"> </div>
-    <div class="pendings"> </div>
-    <div class="atelier"> </div>
-    <div class="newsletter"> </div>
-    <div class="blogs tip"> </div>
+    <div class="menu">
+        <div class="container">
+            <div class="box">
+                <div class="heading" style="padding-left: 10px ;">
+                <h1>WELCOME TO YOUR WORKSHOP!</h1></div>
+                <div class="section1"><center><a href="#pendings">PENDINGS</a></center></div>
+                <div class="section2"><center><a href="#atelier">ATELIER</a></center></div>
+                <div class="section3"><center><a href="#newsletter">NEWSLETTER</a></center></div>
+                <div class="section4"><center><a href="#blogstip">BLOG'S TIPS</a></center></div>
+            </div>
+        </div>
+    </div>
+    <div class="pendings" id="pendings"> </div>
+    <div class="atelier" id="atelier"> 
+        <div id="block1">
+        <h1>Workshop Form</h1><br>
+        <form
+  action="https://formspree.io/f/mayvlyda"
+  method="POST"
+>
+    <input type="text" name="name" placeholder="Your Name">
+  <br>
+    <input type="email" name="email" placeholder="Your E-mail">
+<br>
+    <textarea class="contri"></textarea>
+<br>
+  <button type="submit" class="submit">Post</button>
+</form></div>
+<div id="block2">
+<div class="randomimg"></div>
+</div>
+    </div>
+    <div class="newsletter" id="newsletter"> </div>
+    <div class="blogs_tip" id="blogstip"> </div>
+    <script type="text/javascript" src="studio.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".box"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
 </body>
 </html>
