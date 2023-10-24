@@ -78,6 +78,18 @@ body{
     margin: auto;
  }
 
+ .pendings{
+   height: 500px;
+   background-color: #ffffff;
+   margin-bottom: 80px;
+ }
+
+ .pendings h1{
+   font-size: 50px;
+   padding-top: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
  .container{
     position: relative;
     display: flex;
@@ -221,6 +233,126 @@ body{
     background-size: cover;
  }
 
+ .newsletter{
+   height: 250px;
+   width: 100%;
+   background-image: url(news.jpg);
+   background-size: cover;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+
+ .newsletter .text{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ .subscribe{
+   display: inline-block;
+ }
+
+ .newsletter input{
+   border-radius: 80px;
+   height: 40px;
+   width: 500px;
+   padding-left: 13px;
+   border: 2px solid #000;
+ }
+
+ .newsletter .subscribe button{
+   background: linear-gradient(to left, #79009a, #f40000);
+   border-radius: 50px;
+   height: 42px;
+   aspect-ratio: 1;
+   width: 100px;
+   position: absolute;
+   left: 1300px;
+   color: #fff;
+ }
+
+.blogs_tip{
+   height: 600px;
+   background: linear-gradient(to right, #79009a, #f40000);
+}
+
+.blogs_tip h1{
+   font-size: 50px;
+   padding-top: 15px;
+   color: #fff;
+ }
+
+ footer{
+   height: 250px;
+   background-color: #000;
+ }
+
+ footer #foothead{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 10px 0;
+ }
+
+ footer .foot{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding-left: 28px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+ }
+
+ footer .medias{
+   color: #fff;
+   padding-right: 28px;
+ }
+
+.medias a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+ .medias .fa{
+    font-size: 20px;
+    padding-left: 18px;
+ }
+
+ .footdown{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 14px 0;
+ }
+
+ .links a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 13px;
+ }
+
+ .primary{
+   display: inline-block;
+   padding-left: 28px;
+ }
+
+ .secondary{
+   display: inline-block;
+   padding-left: 28px;
+ }
+
+ .tertiary{
+   display: inline-block;
+   padding-left: 28px;
+ }
+
+
+
 @media (max-width: 450px){
     .section{
         width: 100%;
@@ -332,7 +464,6 @@ body{
    }
 
  }
-
 
 
 @media (max-width: 1199px){
@@ -530,6 +661,64 @@ body{
         display: none;
      }
 }
+
+@media (max-width: 1085px){
+   .newsletter{
+      height: 250px;
+      width: 100%;
+      background-image: url(news.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+   
+    .newsletter .text{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 15px;
+    }
+   
+    .subscribe{
+      display: inline-block;
+    }
+   
+    .newsletter input{
+      border-radius: 80px;
+      height: 40px;
+      width: 300px;
+      padding-left: 20px;
+      border: 2px solid #000;
+    }
+   
+}
+
+@media (max-width: 1525px){
+   .newsletter .subscribe button{
+      background: linear-gradient(to left, #79009a, #f40000);
+      border-radius: 50px;
+      height: 42px;
+      width: 100px;
+      color: #fff;
+      display: none;
+    }
+ }
+
+ @media (max-width: 1530px){
+   .newsletter .subscribe button{
+      background: linear-gradient(to left, #79009a, #f40000);
+      border-radius: 50px;
+      height: 42px;
+      width: 100px;
+      color: #fff;
+      display: none;
+    }
+ }
+
 
 @media (min-width: 1601px){
 

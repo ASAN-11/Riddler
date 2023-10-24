@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="studio.css">
     <link rel="shortcut icon" type="img/png" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Virtual Studio</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
                  <a href="index.html">
                      <li id="home">Home</li> 
                  </a> 
-                 <a href="#">
+                 <a href="https://asan-11.github.io/Riddler/index.html">
                     <li id="issues">Issues</li>
                 </a>
                  <a href="https://github.com/ASAN-11/Riddler">
@@ -39,7 +40,9 @@
             </div>
         </div>
     </div>
-    <div class="pendings" id="pendings"> </div>
+    <div class="pendings" id="pendings">
+        <center><h1>PENDINGS</h1></center>
+    </div>
     <div class="atelier" id="atelier"> 
         <div id="block1">
         <h1>Workshop Form</h1><br>
@@ -59,8 +62,61 @@
 <div class="randomimg"></div>
 </div>
     </div>
-    <div class="newsletter" id="newsletter"> </div>
-    <div class="blogs_tip" id="blogstip"> </div>
+    <div class="newsletter" id="newsletter">
+        <div class="text">
+      <h1 class="head">SUBSCRIBE TO OUR NEWSLETTER!</h1>  
+      <p class="description">Be informed of our news and latest updates all the time.</p>
+    </div>
+    <div class="subscribe">
+        <form action="https://formspree.io/f/myyqoerw" method="POST">
+        <input type="email" name="email" placeholder="Your E-mail">
+        <button type="submit" class="subscribing">SUBSCRIBE</button>
+    </form>
+    </div>
+</div>
+    <div class="blogs_tip" id="blogstip"> 
+        <center><h1>BLOG'S TIPS</h1></center>
+    </div>
+<footer>
+    <div id="foothead">
+    <div class="foot">
+    <font color="red">R</font><font color="white">iddler</font></div>
+    <div class="medias">
+        <a href="https://github.com/ASAN-11"><i class="fa fa-github"></i></a>
+        <a href="#"></a><i class="fa fa-codepen"></i></a>
+        <a href="#"></a><i class="fa fa-linkedin"></i></a>
+        <a href="#"></a><i class="fa fa-youtube-play"></i></a>
+    </div></div>
+    <hr>
+    <div id="footdown">
+        <div class="links">
+            <div class="primary">
+        <a href="">Home</a><br>
+        <a href="">Issues and Orders</a><br>
+        <a href="">Github</a><br>
+        <a href="">Virtual Studio</a><br>
+        <a href="">Promotion</a><br>
+        <a href="">Newsletters</a>
+    </div>
+        <div class="secondary">
+        <a href="">Developer</a><br>
+        <a href="#menu">Menu</a><br>
+        <a href="#pendings">Pendings</a><br>
+        <a href="#atelier">Atelier</a><br>
+        <a href="#newsletter">Newsletter</a><br>
+        <a href="#blogstip">Blog's Tips</a>
+        </div>
+        <div class="tertiary">
+            <a href="#">Student's</a><br>
+            <a href="#">PythonGit</a><br>
+            <a href="#">Musicanto</a><br>
+            <a href="#">Render Projects</a><br>
+            <a href="#">SQLGit</a><br>
+            <a href="#">Github Profile</a>
+        </div>
+    </div>
+    </div>
+</footer>
     <script type="text/javascript" src="studio.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector(".box"), {
