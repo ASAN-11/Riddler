@@ -113,6 +113,21 @@ body{
     color: #ffffff;
 }
 
+.riddlesco{
+    width: 80%;
+    height: 250px;
+    background-color: #ba03da;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 15px;
+    color: #ffffff;
+    }
+
  .riddles h2{
     font-size: 20px;
     color: #ff0000;
@@ -156,7 +171,25 @@ body{
 
  .riddlespro .content span{
     font-size: 17px;
-    color: #ba03da;
+ }
+ .riddlesco h2{
+    font-size: 20px;
+ }
+
+ .riddlesco .user p{
+    font-size: 12px;
+ }
+
+ .riddlesco .content p{
+    font-size: 18px;
+ }
+
+ .riddlesco .content .answer{
+    font-size: 18px;
+ }
+
+ .riddlesco .content span{
+    font-size: 17px;
  }
 
  @media (max-width: 650px){
