@@ -10,6 +10,7 @@
 
 body{
     overflow-x: hidden;
+    background-color: black;
 }
 
 .section{
@@ -207,7 +208,7 @@ body{
 
     .section{
         width: 100%;
-        height: 300vh;
+        height: 50000vh;
     }
 
     #menu{
