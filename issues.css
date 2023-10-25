@@ -138,6 +138,27 @@ body{
     color: #ba03da;
  }
 
+ .riddlespro h2{
+    font-size: 20px;
+ }
+
+ .riddlespro .user p{
+    font-size: 12px;
+ }
+
+ .riddlespro .content p{
+    font-size: 18px;
+ }
+
+ .riddlespro .content .answer{
+    font-size: 18px;
+ }
+
+ .riddlespro .content span{
+    font-size: 17px;
+    color: #ba03da;
+ }
+
  @media (max-width: 650px){
     .riddles{
         height: 500px;
