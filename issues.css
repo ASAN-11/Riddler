@@ -254,7 +254,7 @@ body{
 
     .section{
         width: 100%;
-        height: 500vh;
+        height: 499vh;
     }
 
     #menu{
@@ -266,7 +266,7 @@ body{
      }
 
     .queries{
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
 }
