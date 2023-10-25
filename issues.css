@@ -243,6 +243,10 @@ body{
      .riddlesmain{
          height: 500px;
      }
+
+     .queries{
+         margin-top: 40px;
+     }
  }
 
 
@@ -260,6 +264,10 @@ body{
      #menu .rightmenu{
          display: none;
      }
+
+    .queries{
+        margin-top: 30px;
+    }
 
 }
 
