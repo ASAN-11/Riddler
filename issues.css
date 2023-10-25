@@ -85,6 +85,40 @@ body{
     flex-direction: column;
  }
 
+.riddlesmain{
+    width: 80%;
+    height: 360px;
+    background: linear-gradient(to left, #ff0000, #ba03da);
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 15px;
+    color: #ffffff;
+}
+ .riddlesmain h2{
+    font-size: 20px;
+ }
+
+ .riddlesmain .user p{
+    font-size: 12px;
+ }
+
+ .riddlesmain .content p{
+    font-size: 18px;
+ }
+
+ .riddlesmain .content .answer{
+    font-size: 18px;
+ }
+
+ .riddlesmain .content span{
+    font-size: 17px;
+ }
+
  .riddles{
     width: 80%;
     height: 250px;
@@ -203,6 +237,10 @@ body{
      }
 
      .riddlesco{
+         height: 500px;
+     }
+
+     .riddlesmain{
          height: 500px;
      }
  }
