@@ -121,7 +121,7 @@ body{
 @media (max-width: 450px){
     .section{
         width: 200%;
-        height: 300vh;
+        height: 100vh;
     }
 
     #menu{
