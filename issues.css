@@ -78,9 +78,9 @@ body{
  }
 
 .season{
-    width: fit;
-    height: auto;
-    background-image: url(Season of Newbies.png)
+    width: 100%;
+    background-image: url(Season of Newbies.png);
+    display: none;
 }
 
  .queries{
@@ -257,7 +257,10 @@ body{
 
 
 @media (max-width: 450px){
-
+    .season{
+        display: block;
+        height: 240px;
+    }
     .section{
         width: 100%;
         height: 550vh;
