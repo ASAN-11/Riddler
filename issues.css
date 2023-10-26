@@ -79,7 +79,7 @@ body{
 
 .season{
     width: 100%;
-    background-image: url(Newbies.png);
+    background-image: url('Newbies.png');
     display: none;
 }
 
@@ -261,7 +261,8 @@ body{
         display: block;
         height: 240px;
         width: 100%;
-        background-image: url(Newbies.png);
+        background-image: url('Newbies.png');
+        z-index: 1050px;
     }
     .section{
         width: 100%;
