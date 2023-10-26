@@ -260,6 +260,8 @@ body{
     .season{
         display: block;
         height: 240px;
+        width: 100%;
+        background-image: url(Season of Newbies.png);
     }
     .section{
         width: 100%;
