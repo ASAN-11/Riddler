@@ -77,6 +77,11 @@ body{
     margin: auto;
  }
 
+.season{
+    width: fit;
+    height: auto;
+}
+
  .queries{
     margin-top: 50px;
     justify-content: center;
