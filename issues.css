@@ -77,12 +77,6 @@ body{
     margin: auto;
  }
 
-.season{
-    width: 100%;
-    background-image: url('Newbies.png');
-    display: none;
-}
-
  .queries{
     margin-top: 50px;
     justify-content: center;
@@ -257,20 +251,13 @@ body{
 
 
 @media (max-width: 450px){
-    .season{
-        display: block;
-        height: 240px;
-        width: 100%;
-        background-image: url('Newbies.png');
-        z-index: 1050px;
-    }
     .section{
         width: 100%;
         height: 550vh;
     }
 
     #menu{
-        padding-bottom: 50vh;
+        padding-bottom: 40vh;
     }
 
      #menu .rightmenu{
